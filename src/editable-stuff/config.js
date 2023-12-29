@@ -37,7 +37,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "leeoniisrael",
   reposLength: [],
-  specificRepos: ["weatherapp", "calculator"],
+  specificRepos: ["weather", "calculator"],
 };
 
 // Leadership SECTION
