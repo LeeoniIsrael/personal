@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe927caf.css",
+    "main.js": "/static/js/main.e3701520.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/leeoniisrael.png": "/static/media/leeoniisrael.8fe0f06999ddb43e15d3.png",
+    "static/media/resume.pdf": "/static/media/resume.f535671f4a26fe77b0dc.pdf",
+    "static/media/ai_institute_logo.png": "/static/media/ai_institute_logo.801fd1c4ffcc32211a3a.png",
+    "static/media/deshaw.png": "/static/media/deshaw.2b6a01f232be77da9d5b.png",
+    "static/media/empowered.png": "/static/media/empowered.e586f57b1dee2e4fa3ce.png",
+    "static/media/headstart.png": "/static/media/headstart.1151200504d4d1d633d1.png",
+    "static/media/bofa.png": "/static/media/bofa.7be1404c6eb84d1ebf90.png",
+    "index.html": "/index.html",
+    "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
+    "main.e3701520.js.map": "/static/js/main.e3701520.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.e3701520.js"
+  ]
+}
