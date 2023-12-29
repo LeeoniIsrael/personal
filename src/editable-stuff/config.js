@@ -1,155 +1,154 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true,
+    show: true,
 };
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
-  middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
-  icons: [
-    {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
-  ],
+    gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+    firstName: "Leeon",
+    middleName: "",
+    lastName: "Israel",
+    message: " Passionate about changing the world with technology. ",
+    icons: [{
+            image: "fa-github",
+            url: "https://github.com/leeoniisrael/",
+        },
+        {
+            image: "fa-linkedin",
+            url: "https://www.linkedin.com/in/leeoniisrael/",
+        },
+    ],
 };
-
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
-  show: true,
-  heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
-  message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    show: true,
+    heading: "About Me",
+    imageLink: require("../editable-stuff/leeoniisrael.png"),
+    imageSize: 375,
+    message: "My name is Leeon Israel. As a first-generation student at the University of South Carolina, I am currently pursuing a Bachelor's of Science Degree in Computer Information Systems. My passion lies in utilizing my technical skills and analytical thinking to solve complex problems, research and develop new technologies, and design software applications for various platforms. I am particularly interested in the field of Artificial Intelligence, machine learning, and user interface and user experience design within applications and webpages. In my future career, I aim to use my technical expertise and analytical thinking to assist in solving real-world problems in a collaborative setting. I am confident that my strong work ethic, dedication, and passion for technology will enable me to make a positive impact in the industry and contribute to the advancement of technology for the benefit of society.",
+    resume: require("../editable-stuff/resume.pdf"),
 };
 
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+    show: true,
+    heading: "Recent Projects",
+    gitHubUsername: "leeoniisrael", //i.e."johnDoe12Gh"
+    reposLength: 4,
+    specificRepos: [],
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    show: false,
+    heading: "Leadership",
+    message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    images: [{
+            img: require("../editable-stuff/leeoniisrael.png"),
+            label: "First slide label",
+            paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        },
+        {
+            img: require("../editable-stuff/leeoniisrael.png"),
+            label: "Second slide label",
+            paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        },
+    ],
+    imageSize: {
+        width: "615",
+        height: "450",
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
 };
 
 // SKILLS SECTION
 const skills = {
-  show: true,
-  heading: "Skills",
-  hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
-  ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
-  ],
+    show: true,
+    heading: "Skills",
+    hardSkills: [
+        { name: "JavaScript", value: 90 },
+        { name: "React.js", value: 90 },
+        { name: "HTML/CSS", value: 90 },
+        { name: "Java", value: 80 },
+        { name: "React Native", value: 80 },
+        { name: "Express.js", value: 80 },
+        { name: "Node.js", value: 75 },
+        { name: "Python", value: 50 },
+        { name: "C++", value: 40 },
+        { name: "Bash", value: 40 },
+    ],
+    softSkills: [
+        { name: "MongoDB", value: 90 },
+        { name: "Git", value: 90 },
+        { name: "Selenium Webdriver", value: 90 },
+        { name: "RESTful API", value: 90 },
+        { name: "ASP.NET Web API", value: 90 },
+        { name: "Bootstrap", value: 80 },
+        { name: "Postman", value: 80 },
+        { name: "Unix", value: 75 },
+        { name: "Figma", value: 80 },
+        { name: "Firebase", value: 70 },
+        { name: "Nginx", value: 40 },
+        { name: "JSON", value: 40 },
+    ],
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
-  heading: "Get In Touch",
-  message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    show: true,
+    heading: "Get In Touch",
+    message: "I'm currently looking for Software Engineering Internships or opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    email: "leeoniisrael@gmail.com",
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
+    show: true,
+    heading: "Experiences",
+    data: [{
+            div: "Artificial Intelligence Institute at University of South Carolina",
+            role: "Artificial Intelligence Research Intern",
+            companylogo: require("../assets/img/ai_institute_logo.png"),
+            date: "September 2023 – Present",
+        },
+        {
+            div: "Artificial Intelligence Institute at University of South Carolina",
+            role: "Website Developer Intern",
+            companylogo: require("../assets/img/ai_institute_logo.png"),
+            date: "January 2023 – Present",
+        },
+        {
+            div: "Empowered Buildings",
+            role: "Full Stack Software Engineer Intern",
+            companylogo: require("../assets/img/empowered.png"),
+            date: "June 2023 - September 2023",
+        },
+        {
+            div: "Bank of America",
+            role: "Global Technology Early Insights Fellow",
+            companylogo: require("../assets/img/bofa.png"),
+            date: "January 2024",
+        },
+        {
+            div: "DE Shaw & Co.",
+            role: "Connect Fellow",
+            companylogo: require("../assets/img/deshaw.png"),
+            date: "September 2023",
+        },
+        {
+            div: "HeadStart Fellowship",
+            role: "Technology Fellow",
+            companylogo: require("../assets/img/headstart.png"),
+            date: "January 2023 – April 2023",
+        },
+    ],
+};
 
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
-
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export {
+    navBar,
+    mainBody,
+    about,
+    repos,
+    skills,
+    leadership,
+    getInTouch,
+    experiences,
+};
