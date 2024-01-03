@@ -12,6 +12,7 @@ const dummyProject = {
   stargazers_count: null,
   languages_url: null,
   pushed_at: null,
+  image: null,
 };
 const API = "https://api.github.com";
 // const gitHubQuery = "/repos?sort=updated&direction=desc";
@@ -35,10 +36,14 @@ const Project = ({ heading, username, length, specfic }) => {
       repoList = [...response.data.slice(0, length)];
       // adding specified repos
       try {
-        for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
-          repoList.push(response.data);
-        }
+        // Inside fetchRepos function after fetching specific repos
+      for (let repo of specfic) {
+        const response = await axios.get(`${specficReposAPI}/${repo.name}`);
+        const specificRepoData = response.data;
+        specificRepoData.image = repo.image;
+        repoList.push(specificRepoData);
+      }
+
       } catch (error) {
         console.error(error.message);
       }

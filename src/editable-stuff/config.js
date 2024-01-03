@@ -1,3 +1,6 @@
+import calcPngImage from "../editable-stuff/calc-img.png";
+import weatherPngImage from "../editable-stuff/weather-img.png";
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -32,12 +35,23 @@ const about = {
   resume: require("../editable-stuff/resume.pdf"),
 };
 
+// PROJECTS
+
 const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "leeoniisrael",
   reposLength: [],
-  specificRepos: ["weather", "calculator"],
+  specificRepos: [
+    {
+      name: "weather",
+      image: weatherPngImage,
+    },
+    {
+      name: "calculator",
+      image: calcPngImage,
+    },
+  ],
 };
 
 // Leadership SECTION
