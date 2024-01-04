@@ -1,5 +1,6 @@
 import calcPngImage from "../editable-stuff/calc-img.png";
 import weatherPngImage from "../editable-stuff/weather-img.png";
+import InstagramPngImage from "../editable-stuff/instagramclone-img.png";
 
 // Navigation Bar SECTION
 const navBar = {
@@ -43,6 +44,10 @@ const repos = {
   gitHubUsername: "leeoniisrael",
   reposLength: [],
   specificRepos: [
+    {
+      name: "instagram-clone",
+      image: InstagramPngImage,
+    },
     {
       name: "weather",
       image: weatherPngImage,
