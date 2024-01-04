@@ -33,7 +33,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Leeon Israel. As a first-generation student at the University of South Carolina, I am currently pursuing a Bachelor's of Science Degree in Computer Information Systems. My passion lies in utilizing my technical skills and analytical thinking to solve complex problems, research and develop new technologies, and design software applications for various platforms. I am particularly interested in the field of Artificial Intelligence, machine learning, and user interface and user experience design within applications and webpages. In my future career, I aim to use my technical expertise and analytical thinking to assist in solving real-world problems in a collaborative setting. I am confident that my strong work ethic, dedication, and passion for technology will enable me to make a positive impact in the industry and contribute to the advancement of technology for the benefit of society.",
-  resume: require("../editable-stuff/resume.pdf"),
+  resume: require("../editable-stuff/Leeon Israel, Resume, CIS, 2026.pdf"),
 };
 
 // PROJECTS
