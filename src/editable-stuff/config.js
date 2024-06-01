@@ -33,7 +33,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Leeon Israel. As a first-generation student at the University of South Carolina, I am currently pursuing a Bachelor's of Science Degree in Computer Information Systems. My passion lies in utilizing my technical skills and analytical thinking to solve complex problems, research and develop new technologies, and design software applications for various platforms. I am particularly interested in the field of Artificial Intelligence, machine learning, and user interface and user experience design within applications and webpages. In my future career, I aim to use my technical expertise and analytical thinking to assist in solving real-world problems in a collaborative setting. I am confident that my strong work ethic, dedication, and passion for technology will enable me to make a positive impact in the industry and contribute to the advancement of technology for the benefit of society.",
-  resume: require("../editable-stuff/Leeon Israel, Resume, CIS, 2026.pdf"),
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS
@@ -92,10 +92,10 @@ const skills = {
     { name: "React.js", value: 90 },
     { name: "HTML/CSS", value: 90 },
     { name: "Java", value: 80 },
+    { name: "Python", value: 80 },
     { name: "React Native", value: 80 },
     { name: "Express.js", value: 80 },
     { name: "Node.js", value: 75 },
-    { name: "Python", value: 50 },
     { name: "C++", value: 40 },
     { name: "Bash", value: 40 },
   ],
@@ -107,11 +107,18 @@ const skills = {
     { name: "ASP.NET Web API", value: 90 },
     { name: "Bootstrap", value: 80 },
     { name: "Postman", value: 80 },
-    { name: "Unix", value: 75 },
+    { name: "Unix", value: 80 },
+    { name: "JSON", value: 80 },
     { name: "Figma", value: 80 },
+    { name: "YAML", value: 75 },
     { name: "Firebase", value: 70 },
+    { name: "OpenSearch", value: 70 },
+    { name: "AWS", value: 70 },
+    { name: "SQL", value: 65 },
+    { name: "Kubernetes", value: 65 },
+    { name: "Docker", value: 50 },
+    { name: "Grafana", value: 45 },
     { name: "Nginx", value: 40 },
-    { name: "JSON", value: 40 },
   ],
 };
 
@@ -129,16 +136,22 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      div: "Artificial Intelligence Institute at University of South Carolina",
-      role: "Artificial Intelligence Research Intern",
-      companylogo: require("../assets/img/ai_institute_logo.png"),
-      date: "September 2023 – Present",
+      div: "John Deere",
+      role: "Software Engineer Intern",
+      companylogo: require("../assets/img/johndeere.png"),
+      date: "May 2024 – Present",
+    },
+    {
+      div: "SEO (Sponsors for Educational Opportunity)",
+      role: "SEO Tech Developer",
+      companylogo: require("../assets/img/seo.png"),
+      date: "May 2024 – Present",
     },
     {
       div: "Artificial Intelligence Institute at University of South Carolina",
-      role: "Website Developer Intern",
+      role: "Artificial Intelligence Research Intern",
       companylogo: require("../assets/img/ai_institute_logo.png"),
-      date: "January 2023 – Present",
+      date: "January 2023 – May 2024",
     },
     {
       div: "Empowered Buildings",
