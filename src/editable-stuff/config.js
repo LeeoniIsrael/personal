@@ -2,6 +2,7 @@ import calcPngImage from "../editable-stuff/calc-img.png";
 import weatherPngImage from "../editable-stuff/weather-img.png";
 import InstagramPngImage from "../editable-stuff/instagramclone-img.png";
 import financePngImage from "../editable-stuff/financetracker-img.png"
+import DormDishPngImage from "../editable-stuff/dormdish-img.png"
 
 // Navigation Bar SECTION
 const navBar = {
@@ -48,6 +49,10 @@ const repos = {
     {
       name: "instagram-clone",
       image: InstagramPngImage,
+    },
+    {
+      name: "dorm-dish",
+      image: DormDishPngImage,
     },
     {
       name: "personal-finance-tracker",
