@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.fe927caf.css",
-    "main.js": "/static/js/main.6e93ecb0.js",
+    "main.js": "/static/js/main.f1a92f1c.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/weather-img.png": "/static/media/weather-img.ae15fd393c6f2c57ba7f.png",
     "static/media/instagramclone-img.png": "/static/media/instagramclone-img.b17d4e5cf9a1356fe4e4.png",
+    "static/media/signify-img.png": "/static/media/signify-img.e305b2a78aa32c6d77f1.png",
     "static/media/leeoniisrael.png": "/static/media/leeoniisrael.8fe0f06999ddb43e15d3.png",
+    "static/media/resume.pdf": "/static/media/resume.6ff8cac260a938bd1fb8.pdf",
+    "static/media/financetracker-img.png": "/static/media/financetracker-img.a5ed816cd4d5a9840066.png",
     "static/media/calc-img.png": "/static/media/calc-img.d90950ccc920f39b4ad7.png",
-    "static/media/resume.pdf": "/static/media/resume.b9d711a76efa917461ee.pdf",
+    "static/media/dormdish-img.png": "/static/media/dormdish-img.80382b74a7d9599ca79c.png",
     "static/media/ai_institute_logo.png": "/static/media/ai_institute_logo.801fd1c4ffcc32211a3a.png",
+    "static/media/qh.png": "/static/media/qh.6f14b3bdc4c944dd2233.png",
     "static/media/johndeere.png": "/static/media/johndeere.7da2b360aec677accc78.png",
+    "static/media/ubs.png": "/static/media/ubs.95fb07f6e7f410ca3d1d.png",
     "static/media/deshaw.png": "/static/media/deshaw.2b6a01f232be77da9d5b.png",
     "static/media/empowered.png": "/static/media/empowered.e586f57b1dee2e4fa3ce.png",
     "static/media/seo.png": "/static/media/seo.e1d11d7247eb981c3732.png",
@@ -17,11 +22,11 @@
     "static/media/bofa.png": "/static/media/bofa.7be1404c6eb84d1ebf90.png",
     "index.html": "/index.html",
     "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
-    "main.6e93ecb0.js.map": "/static/js/main.6e93ecb0.js.map",
+    "main.f1a92f1c.js.map": "/static/js/main.f1a92f1c.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.6e93ecb0.js"
+    "static/js/main.f1a92f1c.js"
   ]
 }
