@@ -3,7 +3,7 @@ import weatherPngImage from "../editable-stuff/weather-img.png";
 import InstagramPngImage from "../editable-stuff/instagramclone-img.png";
 import financePngImage from "../editable-stuff/financetracker-img.png"
 import DormDishPngImage from "../editable-stuff/dormdish-img.png"
-
+import Signify from "../editable-stuff/signify-img.png"
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -49,6 +49,10 @@ const repos = {
     {
       name: "instagram-clone",
       image: InstagramPngImage,
+    },
+    {
+      name: "sign-language-interpreter",
+      image: Signify,
     },
     {
       name: "dorm-dish",
@@ -98,11 +102,11 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "Python", value: 95 },
     { name: "JavaScript", value: 90 },
     { name: "React.js", value: 90 },
     { name: "HTML/CSS", value: 90 },
     { name: "Java", value: 80 },
-    { name: "Python", value: 80 },
     { name: "React Native", value: 80 },
     { name: "Express.js", value: 80 },
     { name: "Node.js", value: 75 },
@@ -111,6 +115,8 @@ const skills = {
   ],
   softSkills: [
     { name: "MongoDB", value: 90 },
+    { name: "LangChain", value: 90 },
+    { name: "LlamaIndex", value: 90 },
     { name: "Git", value: 90 },
     { name: "Selenium Webdriver", value: 90 },
     { name: "RESTful API", value: 90 },
@@ -122,6 +128,7 @@ const skills = {
     { name: "Figma", value: 80 },
     { name: "YAML", value: 75 },
     { name: "Firebase", value: 70 },
+    { name: "DataBricks", value: 70 },
     { name: "OpenSearch", value: 70 },
     { name: "AWS", value: 70 },
     { name: "SQL", value: 65 },
@@ -137,7 +144,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Software Engineering Internships or opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm always open to connect and discuss new opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "leeoniisrael@gmail.com",
 };
 
@@ -145,23 +152,36 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+
     {
-      div: "John Deere",
-      role: "Software Engineer Intern",
-      companylogo: require("../assets/img/johndeere.png"),
-      date: "May 2024 – Present",
-    },
-    {
-      div: "SEO (Sponsors for Educational Opportunity)",
-      role: "SEO Tech Developer",
-      companylogo: require("../assets/img/seo.png"),
-      date: "May 2024 – Present",
+      div: "Qatalyst Health",
+      role: "Software Engineer",
+      companylogo: require("../assets/img/qh.png"),
+      date: "November 2024 – Present",
     },
     {
       div: "Artificial Intelligence Institute at University of South Carolina",
       role: "Artificial Intelligence Research Intern",
       companylogo: require("../assets/img/ai_institute_logo.png"),
-      date: "January 2023 – May 2024",
+      date: "January 2023 – Present",
+    },
+    {
+      div: "UBS",
+      role: "Software Engineering Intern",
+      companylogo: require("../assets/img/ubs.png"),
+      date: "June 2025 – August 2025",
+    },
+    {
+      div: "John Deere",
+      role: "Software Engineer Intern",
+      companylogo: require("../assets/img/johndeere.png"),
+      date: "May 2024 – August 2024",
+    },
+    {
+      div: "SEO (Sponsors for Educational Opportunity)",
+      role: "SEO Tech Developer",
+      companylogo: require("../assets/img/seo.png"),
+      date: "May 2024 – July 2024",
     },
     {
       div: "Empowered Buildings",
